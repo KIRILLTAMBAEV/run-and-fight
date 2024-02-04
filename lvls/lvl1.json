@@ -1,0 +1,43 @@
+{
+    "roads": {
+        "coordinates": [
+            [80, 0],
+            [240, 0],
+            [480, 0]
+        ],
+        "tracks": [80, 160, 240, 320, 480, 560]
+    },
+    "grass": {
+        "coordinates": [
+            [0, 0],
+            [400, 0],
+            [640, 0],
+            [720, 0]
+        ]
+    },
+    "finish": {
+        "coordinates": [700, 50]
+    },
+    "water": {
+        "coordinates": []
+    },
+    "logs": {
+        "coordinates": []
+    },
+    "enemies": {
+        "data": [
+            {
+                "x": 683,
+                "y": 300,
+                "max_y": 500,
+                "min_y": 150,
+                "speed": 3
+            }
+        ]
+    },
+    "cars":  ["big_track", "car_blue", "car_cyan", "car_grey",
+        "car_red", "car_white", "car_yellow", "track"],
+    "chicken": {
+        "coordinates": [43, 650]
+    }
+}
